@@ -1,0 +1,205 @@
+@import "../../app.scss";
+.contact {
+  height: 100%;
+  margin: auto;
+  max-width: 1336px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+
+  @include mobile {
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+  }
+  @include tablet {
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+  }
+  @include desktop {
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+  }
+  @include large {
+    padding: 30px;
+  }
+
+  .textContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    @include mobile {
+      gap: 10px;
+      text-align: center;
+      align-items: center;
+      margin-top: 40px;
+    }
+    @include tablet {
+      gap: 10px;
+      text-align: center;
+      align-items: center;
+      margin-top: 40px;
+    }
+    @include desktop {
+      gap: 10px;
+      text-align: center;
+      align-items: center;
+      margin-top: 40px;
+    }
+    h1 {
+      font-size: 100px;
+      line-height: 88px;
+      @include mobile {
+        font-size: 25px;
+        line-height: 30px;
+        padding-left: 20px;
+      }
+      @include tablet {
+        font-size: 25px;
+        line-height: 30px;
+        padding-left: 20px;
+      }
+      @include desktop {
+        font-size: 80px;
+        line-height: 70px;
+        padding-left: 20px;
+      }
+    }
+    h2 {
+      @include desktop {
+        font-size: 50px;
+      }
+    }
+    span {
+      font-weight: 300;
+      font-size: 20px;
+      @include desktop {
+        font-size: 30px;
+      }
+    }
+  }
+  .formContainer {
+    flex: 1;
+    position: relative;
+    @include mobile {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 70px;
+    }
+    @include tablet {
+      width: 85%;
+      padding: 10px;
+      margin-bottom: 70px;
+    }
+    @include desktop {
+      width: 70%;
+      padding: 10px;
+      margin-bottom: 70px;
+    }
+    .svgContainer {
+      position: absolute;
+      margin: auto;
+      stroke: orange;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      // @include mobile {
+      //   width: 50px;
+      //   height: 50px;
+      // }
+      // @include tablet {
+      //   // top: 10%;
+      //   // left: 8%;
+      // }
+      svg {
+        width: 500px;
+        height: 500px;
+        @include mobile {
+          width: 100%;
+          height: 300px;
+        }
+        @include tablet {
+          width: 100%;
+          height: 300px;
+        }
+        @include desktop {
+          width: 100%;
+          height: 400px;
+        }
+      }
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      @include mobile {
+        gap: 10px;
+        padding-bottom: 20px;
+      }
+      @include tablet {
+        gap: 10px;
+        padding-bottom: 20px;
+      }
+      @include desktop {
+        gap: 20px;
+        padding-bottom: 20px;
+      }
+      input,
+      textarea {
+        padding: 20px;
+        background: transparent;
+        color: white;
+        border: 0.3px solid white;
+        border-radius: 5px;
+        outline: none;
+        font-size: 20px;
+        @include mobile {
+          font-size: 14px;
+          padding: 10px;
+        }
+        @include tablet {
+          font-size: 14px;
+          padding: 10px;
+        }
+        @include desktop {
+          font-size: 20px;
+        }
+      }
+      button {
+        padding: 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: orange;
+        font-weight: 500;
+        font-size: 20px;
+        cursor: pointer;
+        @include mobile {
+          padding: 10px;
+        }
+        @include tablet {
+          padding: 10px;
+        }
+      }
+      .error {
+        color: red;
+      }
+      .success {
+        color: green;
+        font-size: 20px;
+        font-weight: bold;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+      }
+    }
+  }
+}

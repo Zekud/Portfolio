@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c0faf911.css",
+    "main.js": "/static/js/main.0bef7ea3.js",
+    "static/js/787.2dcca737.chunk.js": "/static/js/787.2dcca737.chunk.js",
+    "static/media/mountains.png": "/static/media/mountains.6bceb498a0e1e0a70b47.png",
+    "static/media/zekua_port.png": "/static/media/zekua_port.266e0059531ac5aed25c.png",
+    "static/media/people.webp": "/static/media/people.58eb2f8d793cb5ba671a.webp",
+    "static/media/stars.png": "/static/media/stars.a979f6ed7ad00c7ea0b2.png",
+    "static/media/planets.png": "/static/media/planets.827213af57ae82d007cd.png",
+    "static/media/sun.png": "/static/media/sun.1122608e12712a52470d.png",
+    "index.html": "/index.html",
+    "main.c0faf911.css.map": "/static/css/main.c0faf911.css.map",
+    "main.0bef7ea3.js.map": "/static/js/main.0bef7ea3.js.map",
+    "787.2dcca737.chunk.js.map": "/static/js/787.2dcca737.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0faf911.css",
+    "static/js/main.0bef7ea3.js"
+  ]
+}

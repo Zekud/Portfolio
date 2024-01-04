@@ -1,0 +1,242 @@
+@import "../../app.scss";
+.hero {
+  height: calc(100vh - 100px);
+  background: linear-gradient(180deg, #0c0c1d, #111132);
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  @include mobile {
+    flex-direction: column;
+    gap: 30px;
+  }
+  @include tablet {
+    flex-direction: column;
+  }
+
+  .wrapper {
+    // max-width: 1366px;
+    // margin: auto;
+    // padding-left: 150px;
+    // padding-right: 0;
+    width: 50%;
+    height: 100%;
+    z-index: -1;
+    @include mobile {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 50%;
+      margin-top: 30px;
+      padding: 10px 10px 0 10px;
+    }
+    @include tablet {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 50%;
+      margin-top: 20px;
+      padding: 10px 10px 0 10px;
+    }
+    .textContainer {
+      height: 100%;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 40px;
+      @include mobile {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        padding-top: 20px;
+      }
+      @include tablet {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        justify-content: flex-start;
+        height: 50%;
+      }
+      @include desktop {
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        gap: 30px;
+      }
+      @include large {
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        gap: 30px;
+      }
+
+      h2 {
+        font-size: 35px;
+        color: rebeccapurple;
+        letter-spacing: 10px;
+        font-weight: bolder;
+        @include mobile {
+          font-size: 30px;
+        }
+        @include tablet {
+          font-size: 30px;
+        }
+        @include desktop {
+          font-size: 40px;
+        }
+        @include large {
+          font-size: 55px;
+        }
+      }
+
+      h1 {
+        font-size: 88px;
+        @include mobile {
+          font-size: 15px;
+        }
+        @include tablet {
+          font-size: 15px;
+        }
+        @include desktop {
+          font-size: 40px;
+        }
+        @include large {
+          font-size: 40px;
+        }
+      }
+
+      .buttons {
+        @include mobile {
+          display: flex;
+        }
+        @include tablet {
+          display: flex;
+        }
+        a {
+          padding: 20px;
+          border: 1px solid white;
+          background-color: transparent;
+          color: white;
+          border-radius: 10px;
+          cursor: pointer;
+          font-weight: bold;
+          margin-right: 20px;
+          font-size: 18px;
+
+          @include mobile {
+            padding: 5px;
+            font-size: 10px;
+            margin-right: 10px;
+            border-radius: 5px;
+          }
+          @include tablet {
+            padding: 5px;
+            font-size: 10px;
+            margin-right: 10px;
+            border-radius: 5px;
+          }
+        }
+        :nth-child(2) {
+          background-color: white;
+          color: black;
+          cursor: pointer;
+        }
+      }
+
+      img {
+        width: 50px;
+        @include mobile {
+          display: none;
+        }
+        @include tablet {
+          display: none;
+        }
+      }
+    }
+  }
+  .sliderTextContainer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+
+    display: flex;
+    align-items: end;
+
+    //bottom: -120px;
+    i {
+      font-size: 150px;
+      opacity: 0.2;
+      padding: 0 30px;
+      @include mobile {
+        font-size: 70px;
+        padding: 0 2px;
+      }
+      @include tablet {
+        font-size: 70px;
+        padding: 0 2px;
+      }
+    }
+    // font-size: 50vh;
+    // color: #ffffff09;
+    // opacity: 0.9;
+    // white-space: nowrap;
+    // font-weight: bold;
+    // width: 50%;
+    // z-index: -1;
+  }
+  .imageContainer {
+    // position: absolute;
+    // top: 0;
+    // right: 0;
+    height: 100%;
+
+    @include mobile {
+      height: 70%;
+      width: 83%;
+    }
+    @include tablet {
+      padding-top: 20px;
+      height: 70%;
+      width: 100%;
+      z-index: 999;
+      text-align: center;
+    }
+    @include desktop {
+      height: 90%;
+      align-self: center;
+      width: auto;
+      z-index: 999;
+      text-align: center;
+    }
+    img {
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      width: 100%;
+      @include mobile {
+        height: 450px;
+      }
+      @include tablet {
+        width: auto;
+      }
+      @include desktop {
+        height: auto;
+        z-index: 999;
+      }
+    }
+  }
+}
