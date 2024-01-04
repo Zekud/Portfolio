@@ -71,13 +71,13 @@
         align-items: center;
         text-align: center;
         padding: 20px;
-        gap: 30px;
+        gap: 15px;
       }
       @include large {
         width: 100%;
         height: 100%;
-        align-items: center;
-        text-align: center;
+        //align-items: center;
+        // text-align: center;
         padding: 20px;
         gap: 30px;
       }
@@ -94,7 +94,7 @@
           font-size: 30px;
         }
         @include desktop {
-          font-size: 40px;
+          font-size: 35px;
         }
         @include large {
           font-size: 55px;
@@ -110,7 +110,7 @@
           font-size: 15px;
         }
         @include desktop {
-          font-size: 40px;
+          font-size: 30px;
         }
         @include large {
           font-size: 40px;
@@ -127,7 +127,6 @@
         a {
           padding: 20px;
           border: 1px solid white;
-          background-color: transparent;
           color: white;
           border-radius: 10px;
           cursor: pointer;
@@ -144,6 +143,19 @@
           @include tablet {
             padding: 5px;
             font-size: 10px;
+            margin-right: 10px;
+            border-radius: 5px;
+          }
+
+          @include desktop {
+            padding: 10px;
+            font-size: 12px;
+            margin-right: 10px;
+            border-radius: 5px;
+          }
+          @include large {
+            padding: 15px;
+            font-size: 12px;
             margin-right: 10px;
             border-radius: 5px;
           }
@@ -188,6 +200,14 @@
       @include tablet {
         font-size: 70px;
         padding: 0 2px;
+      }
+      @include desktop {
+        font-size: 70px;
+        padding: 0 2px;
+      }
+      @include large {
+        font-size: 110px;
+        padding: 0 5px;
       }
     }
     // font-size: 50vh;

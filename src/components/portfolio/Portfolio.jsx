@@ -14,7 +14,7 @@ const items = [
     title: "Little Lemon Booking",
     img: "https://media.istockphoto.com/id/937256616/photo/confident-restaurant-manager-answering-phone.jpg?s=612x612&w=0&k=20&c=8Z8A2JWvoSwg-0DNctYEQAXEZB9Tp69huK59y4qts4I=",
     desc: "The Little Lemon Online Reservation System is a Front end web application that allows users to reserve a table at a restaurant. ",
-    link: "http://zekua.me/little-lemon/",
+    link: "https://little-lemon.zekua.me",
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const items = [
     title: "Solar System",
     img: "https://i.pinimg.com/originals/4b/cd/fc/4bcdfc63dce3b34eed8a3b04963a7396.jpg",
     desc: "Solar System is a web app that helps users to calculate the weight of any object in the solar system.",
-    link: "http://zekua.me/Solar-System/",
+    link: "https://solar-system.zekua.me/",
   },
 ];
 const Single = ({ item }) => {

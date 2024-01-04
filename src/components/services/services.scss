@@ -86,6 +86,9 @@
       @include desktop {
         gap: 25px;
       }
+      @include large {
+        gap: 25px;
+      }
 
       img {
         width: 300px;
@@ -99,6 +102,10 @@
         @include tablet {
           width: 300px;
           height: 100px;
+        }
+        @include large {
+          width: 250px;
+          height: 80px;
         }
       }
       h1 {
@@ -124,7 +131,7 @@
         border-radius: 50px;
         background-color: orange;
         font-size: 24px;
-        cursor: pointer;
+
         @include mobile {
           font-size: 16px;
           width: 150px;
@@ -142,8 +149,8 @@
         }
         @include large {
           font-size: 20px;
-          width: 200px;
-          height: 70px;
+          width: 180px;
+          height: 60px;
         }
       }
     }
@@ -164,6 +171,10 @@
       padding-top: 20px;
       justify-content: center;
     }
+    @include large {
+      padding: 5px 20px;
+      justify-content: center;
+    }
 
     .box {
       padding: 50px;
@@ -181,12 +192,18 @@
       @include tablet {
         border: none;
         align-items: center;
-        padding: 15px;
+        padding: 7px 15px;
+      }
+      @include large {
+        padding: 40px 20px 30px 20px;
       }
 
       h1 {
         font-size: 24px;
         color: orange;
+        @include large {
+          font-size: 20px;
+        }
       }
 
       p {
@@ -196,6 +213,9 @@
         }
         @include tablet {
           display: none;
+        }
+        @include large {
+          font-size: 16px;
         }
       }
       button {
