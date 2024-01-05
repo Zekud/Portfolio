@@ -194,12 +194,12 @@
       opacity: 0.2;
       padding: 0 30px;
       @include mobile {
-        font-size: 70px;
-        padding: 0 2px;
+        font-size: 100px;
+        padding: 5px 2px;
       }
       @include tablet {
-        font-size: 70px;
-        padding: 0 2px;
+        font-size: 100px;
+        padding: 5px 2px;
       }
       @include desktop {
         font-size: 70px;

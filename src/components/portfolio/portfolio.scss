@@ -10,12 +10,12 @@
     color: orange;
     padding-top: 50px;
     @include mobile {
-      padding-top: calc(100vh - 100px);
-      font-size: 24px;
+      padding-top: calc(100vh - 130px);
+      font-size: 20px;
     }
     @include tablet {
-      padding-top: calc(100vh - 100px);
-      font-size: 24px;
+      padding-top: calc(100vh - 130px);
+      font-size: 20px;
     }
     @include large {
       font-size: 26px;
@@ -129,7 +129,7 @@
             font-size: 16px;
           }
           @include tablet {
-            font-size: 24px;
+            font-size: 22px;
           }
           @include large {
             font-size: 24px;

@@ -8,7 +8,7 @@ function Services() {
   const isInview = useInView(ref, { margin: "-100px" });
   const variants = {
     initial: {
-      x: -500,
+      x: window.innerWidth > 1024 ? -500 : 0,
       y: 100,
       opacity: 0,
     },
