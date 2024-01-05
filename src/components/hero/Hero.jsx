@@ -62,7 +62,7 @@ function Hero() {
               Portfolio
             </motion.a>
             <motion.a
-              href="https://drive.google.com/file/d/1mXqQwrkjTqu4lg8R4RLGnpBKvwgBwvBI/view?usp=drive_link"
+              href="https://drive.google.com/file/d/19eftkhrRFT-8mm8JzfaVHcEwdgdJxprf/view?usp=sharing"
               target="_blank"
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
