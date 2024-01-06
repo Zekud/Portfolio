@@ -1,11 +1,11 @@
 import React, { useRef } from "react";
 import "./services.scss";
-import { motion, useInView } from "framer-motion";
+import { motion } from "framer-motion";
 import img from "../../assets/people.webp";
 
 function Services() {
   const ref = useRef(null);
-  const isInview = useInView(ref, { margin: "-100px" });
+
   const variants = {
     initial: {
       x: window.innerWidth > 1024 ? -500 : 0,
