@@ -64,7 +64,7 @@ function Services() {
           <button></button>
         </motion.div>
         <motion.div className="box">
-          <h1>Digital Marketing</h1>
+          <h1>Digital Presence</h1>
           <p>
             Amplify your online presence and connect with your target audience
             effectively.
