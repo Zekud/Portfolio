@@ -98,7 +98,14 @@ function Contact() {
         >
           <input type="text" placeholder="Name" required name="name" />
           <input type="email" placeholder="Email" required name="email" />
-          <textarea rows={8} placeholder="Message" required name="message" />
+          <textarea
+            rows={8}
+            placeholder="Message"
+            style={{ resize: "none" }}
+            required
+            name="message"
+          />
+
           <motion.button whileTap={{ scale: 0.9 }}>Send</motion.button>
           {err && <span className="error">Something went wrong</span>}
           {success && (
