@@ -5,7 +5,7 @@ const items = [
   {
     id: 1,
     title: "Zekua Chat",
-    img: "https://images.unsplash.com/photo-1519069060891-f8c50519bf39?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2hhdCUyMGFwcHxlbnwwfHwwfHx8MA%3D%3D",
+    img: "https://youthvillage.co.za/wp-content/uploads/2023/07/Chat-Apps-740x470.png",
     desc: "Fully responsive and dynamic real-time chatting app powered by Firebase that allow users to share messages and images, with user-friendly features like email and Google authentication.",
     link: "https://zekua-chat.zekua.me/",
   },
