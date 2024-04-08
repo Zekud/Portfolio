@@ -28,15 +28,15 @@ function Hero() {
   };
   const sliderVariants = {
     initial: {
-      x: "100%",
+      x: window.innerWidth < 760 ? "150%" : "100%",
     },
     animate: {
-      x: "-100%",
+      x: window.innerWidth < 760 ? "-150%" : "-100%",
       transition: {
         delay: 1,
         duration: 25,
         repeat: Infinity,
-        repeatType: "mirror",
+        repeatType: "reverse",
       },
     },
   };
@@ -50,9 +50,7 @@ function Hero() {
           animate="animate"
         >
           <motion.h2 variants={variants}>ZEKARIYAS KUMSA</motion.h2>
-          <motion.h1 variants={variants}>
-            Web Developer (React and Firebase)
-          </motion.h1>
+          <motion.h1 variants={variants}>Full Stack Web Developer</motion.h1>
           <motion.div className="buttons" variants={variants}>
             <motion.a
               href="#Portfolio"
@@ -90,8 +88,19 @@ function Hero() {
         <i class="devicon-html5-plain-wordmark colored"></i>
         <i class="devicon-css3-plain-wordmark colored"></i>
         <i class="devicon-javascript-plain colored"></i>
+        <i>
+          {" "}
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+            alt="tailwindcss-original"
+            style={{ height: "50px", width: "50px" }}
+          />
+        </i>
         <i class="devicon-react-original-wordmark colored"></i>
         <i class="devicon-firebase-plain-wordmark colored"></i>
+        <i class="devicon-nodejs-plain-wordmark colored"></i>
+        <i class="devicon-express-original"></i>
+        <i class="devicon-mysql-plain-wordmark colored"></i>
         <i class="devicon-git-plain-wordmark colored"></i>
         <i class="devicon-figma-plain-wordmark colored"></i>
         <i class="devicon-sass-original colored"></i>
