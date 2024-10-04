@@ -1,41 +1,46 @@
 import React, { useRef } from "react";
 import "./portfolio.scss";
 import { motion, useSpring, useScroll, useTransform } from "framer-motion";
+import chat from "../../assets/chat.png";
+import forum from "../../assets/forum.jpg";
+import booking from "../../assets/booking.jpg";
+import youtube from "../../assets/youtube.jpg";
+import solar from "../../assets/solar.jpg";
 const items = [
   {
     id: 1,
     title: "Zekua Chat",
-    img: "https://youthvillage.co.za/wp-content/uploads/2023/07/Chat-Apps-740x470.png",
+    img: chat,
     desc: "Fully responsive and dynamic real-time chatting app powered by Firebase that allow users to share messages and images, with user-friendly features like email and Google authentication.",
-    link: "https://zekua-chat.zekua.me/",
+    link: "https://zekua-chat.vercel.app/",
   },
   {
     id: 2,
     title: "Evangadi Forum",
-    img: "https://core-docs.s3.amazonaws.com/reeths-puffer_schools_ar/article/image/large_1039918f-2bf7-4636-aa36-35e478225d9c.jpg",
+    img: forum,
     desc: "Evangadi Forum is a Full Stack web application made with React,Tailwind CSS, Node.js, and MySQL that allow users to ask questions and give answer.",
-    link: "https://evangadi-forum.zekua.me",
+    link: "https://evangadi-forum-client-git-main-zekuas-projects.vercel.app/login",
   },
   {
     id: 3,
     title: "Little Lemon Booking",
-    img: "https://media.istockphoto.com/id/937256616/photo/confident-restaurant-manager-answering-phone.jpg?s=612x612&w=0&k=20&c=8Z8A2JWvoSwg-0DNctYEQAXEZB9Tp69huK59y4qts4I=",
+    img: booking,
     desc: "The Little Lemon Online Reservation System is a Front end web application that allows users to reserve a table at a restaurant. ",
-    link: "https://little-lemon.zekua.me",
+    link: "https://little-lemon-git-main-zekuas-projects.vercel.app/",
   },
   {
     id: 4,
     title: "Youtube To Mp3",
-    img: "https://www.apowersoft.com/wp-content/uploads/2014/03/youtube-to-mp3.jpg",
+    img: youtube,
     desc: "Youtube To Mp3 is a web app that helps users to download their favorite videos in mp3 format. ",
-    link: "https://youtube2mp3.zekua.me/",
+    link: "https://youtube-to-mp-3-six.vercel.app/",
   },
   {
     id: 5,
     title: "Solar System",
-    img: "https://i.pinimg.com/originals/4b/cd/fc/4bcdfc63dce3b34eed8a3b04963a7396.jpg",
+    img: solar,
     desc: "Solar System is a web app that helps users to calculate the weight of any object in the solar system.",
-    link: "https://solar-system.zekua.me/",
+    link: "https://solar-system-git-main-zekuas-projects.vercel.app/",
   },
 ];
 const Single = ({ item }) => {
