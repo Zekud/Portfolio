@@ -88,14 +88,7 @@ function Hero() {
         <i class="devicon-html5-plain-wordmark colored"></i>
         <i class="devicon-css3-plain-wordmark colored"></i>
         <i class="devicon-javascript-plain colored"></i>
-        <i>
-          {" "}
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
-            alt="tailwindcss-original"
-            style={{ height: "50px", width: "50px" }}
-          />
-        </i>
+        <i class="devicon-nextjs-original-wordmark"></i>
         <i class="devicon-react-original-wordmark colored"></i>
         <i class="devicon-firebase-plain-wordmark colored"></i>
         <i class="devicon-nodejs-plain-wordmark colored"></i>
