@@ -5,7 +5,6 @@ import chat from "../../assets/chat.png";
 import forum from "../../assets/forum.jpg";
 import booking from "../../assets/booking.jpg";
 import youtube from "../../assets/youtube.jpg";
-import solar from "../../assets/solar.jpg";
 import jara from "../../assets/jara.png";
 import thadda from "../../assets/thadda.png";
 const items = [
