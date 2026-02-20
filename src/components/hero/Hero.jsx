@@ -1,6 +1,6 @@
 import React from "react";
 import "./hero.scss";
-import hero from "../../assets/zekua.jpg";
+import hero from "../../assets/ze.png";
 import scroll from "../../assets/scroll.png";
 import { motion } from "framer-motion";
 function Hero() {
